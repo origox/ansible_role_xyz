@@ -10,7 +10,7 @@ name: CI
 
 defaults:
   run:
-    working-directory: 'ansible_role_XYZ'
+    working-directory: 'origox.ansible_role_XYZ'
 
 jobs:
 
@@ -21,7 +21,7 @@ jobs:
       - name: Check out the codebase.
         uses: actions/checkout@v2
         with:
-          path: 'ansible_role_XYZ'
+          path: 'origox.ansible_role_XYZ'
 
       - name: Set up Python 3.
         uses: actions/setup-python@v2
@@ -49,7 +49,7 @@ jobs:
       - name: Check out the codebase.
         uses: actions/checkout@v2
         with:
-          path: 'ansible_role_XYZ'
+          path: 'origox.ansible_role_XYZ'
 
       - name: Set up Python 3.
         uses: actions/setup-python@v2
