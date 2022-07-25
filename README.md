@@ -1,7 +1,19 @@
-# Ansible-role: ansible_git
+# Ansible role: ansible_role_XYZ
 [![CI](https://github.com/origox/ansible_role_XYZ/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/origox/ansible_role_XYZ/actions/workflows/ci.yml)
 
-An Ansible role that install and configure XYZ for an user
+An Ansible role that install and configure XYZ
+
+# Intial Setup after using template repo
+
+1. Perform initial setup after using this template repo
+
+Run from cmdline `grep -rl XYZ . | xargs sed -i 's/XYZ/NAME_OF_ROLE/g'`
+Note, replace NAME_OF_ROLE with your new name of Ansible role
+
+2. Update tasks for actual configuration of new role.
+3. Adapt readme file to new role 
+4. Add 
+
 
 ## Requirements
 
@@ -11,7 +23,7 @@ None.
 
 Available variables are listed below, along with default values (see `defaults/main.yml`):
 
-    git_config:
+    XYZ_config:
       <section>:
         <key>: <value>
 
