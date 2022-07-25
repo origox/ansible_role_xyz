@@ -1,3 +1,5 @@
 ---
-skip_list:
-  - 'fqcn-builtins'
+# .ansible-lint
+
+exclude_paths:
+  - 
