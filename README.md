@@ -7,7 +7,7 @@ An Ansible role that install and configure XYZ
 
 1. Perform initial setup after using this template repo
 
-Run from cmdline `grep -rl XYZ . | xargs sed -i 's/XYZ/NAME_OF_ROLE/g'`
+Run from cmdline `grep -rl XYZ . | xargs sed -i 's/XYZ/NAME_OF_ROLE/gI'`
 Note, replace NAME_OF_ROLE with your new name of Ansible role
 
 2. Update tasks for actual configuration of new role.

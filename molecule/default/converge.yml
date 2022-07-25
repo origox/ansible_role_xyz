@@ -7,6 +7,6 @@
     git_config_user: root
     
   tasks:
-    - name: "Include origox.ansible_role_XYZ"
+    - name: "Include ansible_role_XYZ"
       ansible.builtin.include_role:
-        name: "ansible_role_XYZ"
+        name: "ansible_role_xyz"
